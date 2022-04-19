@@ -1,5 +1,7 @@
 {
   "item.mam.magick_crystal": "Magick crystal",
   "item.mam.magickal_condencer": "Magickal condencer",
-  "item.mam.crystal_block": "Crystal block"
+  "item.mam.crystal_block": "Crystal block",
+
+  "itemGroup.mechs_and_magicktab.": "Mechs and Magick"
 }
