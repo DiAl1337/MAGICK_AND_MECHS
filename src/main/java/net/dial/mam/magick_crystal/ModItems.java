@@ -1,7 +1,6 @@
 package net.dial.mam.magick_crystal;
 
-import net.dial.mam.MaM;
-import net.minecraft.world.item.CreativeModeTab;
+import net.dial.mam.mam;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MaM.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, mam.MOD_ID);
 
 
     public static final RegistryObject<Item> magick_crystal = ITEMS.register("magick_crystal",
