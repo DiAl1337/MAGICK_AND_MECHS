@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mam:block/crystal_block" }
+  }
+}
