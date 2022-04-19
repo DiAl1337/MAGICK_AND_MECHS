@@ -45,4 +45,13 @@ public class MaM {
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
+
+
+    echo "# MaM" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/DiAl1337/MaM.git
+    git push -u origin main
 }
