@@ -21,9 +21,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, mam.MOD_ID);
 
-    public static final RegistryObject<Block> CRYSTAL_BLOCK = registerBlock("crystal_block",
+    public static final RegistryObject<Block> crystal_block = registerBlock("crystal_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f)
-                    .requiresCorrectToolForDrops()),ModCreativeModeTab.MECHS_AND_MAGIC_TAB) ;
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.MECHS_AND_MAGIC_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

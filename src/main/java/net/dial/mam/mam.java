@@ -1,6 +1,7 @@
 package net.dial.mam;
 
 import net.dial.mam.items.ModItems;
+import net.dial.mam.block.ModBlocks;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +23,7 @@ public class mam {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
-
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
