@@ -13,12 +13,12 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> magic_crystal = ITEMS.register("magic_crystal",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC_TAB)));
 
 
 
     public static final RegistryObject<Item> magical_condencer = ITEMS.register("magical_condencer",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC_TAB)));
 
 
 

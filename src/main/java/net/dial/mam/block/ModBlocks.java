@@ -1,5 +1,6 @@
 package net.dial.mam.block;
 
+import net.dial.mam.items.ModCreativeModeTab;
 import net.dial.mam.items.ModItems;
 import net.dial.mam.mam;
 import net.minecraft.world.item.BlockItem;
@@ -22,7 +23,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CRYSTAL_BLOCK = registerBlock("crystal_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f)
-                    .requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
+                    .requiresCorrectToolForDrops()),ModCreativeModeTab.MECHS_AND_MAGIC_TAB) ;
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
