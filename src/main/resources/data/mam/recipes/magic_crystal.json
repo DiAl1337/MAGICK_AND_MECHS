@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mam:crystal_block"
+    }
+  ],
+  "result": {
+    "item": "mam:magic_crystal",
+    "count": 9
+  }
+}
