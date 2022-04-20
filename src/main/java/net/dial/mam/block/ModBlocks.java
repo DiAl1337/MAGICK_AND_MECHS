@@ -25,6 +25,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.MECHS_AND_MAGIC_TAB);
 
+    public static final RegistryObject<Block> crystal_ore = registerBlock("crystal_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MECHS_AND_MAGIC_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
