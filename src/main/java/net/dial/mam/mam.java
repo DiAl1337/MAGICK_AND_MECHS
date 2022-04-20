@@ -1,6 +1,6 @@
 package net.dial.mam;
 
-import net.dial.mam.magick_crystal.ModItems;
+import net.dial.mam.items.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

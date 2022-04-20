@@ -1,4 +1,4 @@
-package net.dial.mam.magick_crystal;
+package net.dial.mam.items;
 
 import net.dial.mam.mam;
 import net.minecraft.world.item.Item;
@@ -12,13 +12,13 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, mam.MOD_ID);
 
 
-    public static final RegistryObject<Item> magick_crystal = ITEMS.register("magick_crystal",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGICK)));
+    public static final RegistryObject<Item> magic_crystal = ITEMS.register("magic_crystal",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC)));
 
 
 
-    public static final RegistryObject<Item> magickal_condencer = ITEMS.register("magickal_condencer",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGICK)));
+    public static final RegistryObject<Item> magical_condencer = ITEMS.register("magical_condencer",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC)));
 
 
 

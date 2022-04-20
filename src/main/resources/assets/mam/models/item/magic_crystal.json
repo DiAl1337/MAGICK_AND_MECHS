@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mam:item/magickal_condencer"
+    "layer0": "mam:item/magic_crystal"
   }
 }
