@@ -38,6 +38,9 @@ public class ModItems {
     public static final RegistryObject<Item> small_catalyst = ITEMS.register("small_catalyst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC_TAB)));
 
+    public static final RegistryObject<Item> magic_lamp = ITEMS.register("magic_lamp",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHS_AND_MAGIC_TAB)));
+
 
 
 
