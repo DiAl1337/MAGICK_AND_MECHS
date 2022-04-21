@@ -1,6 +1,12 @@
 {
   "item.mam.magic_crystal": "Magic crystal",
   "item.mam.magical_condencer": "Magical Condencer",
+  "item.mam.interlaced_crystal_cloth": "Interlaced crystal cloth",
+  "item.mam.mithril_ingot": "Mithril ingot",
+  "item.mam.raw_mithril": "Raw mithril",
+  "item.mam.crystal_cloth": "Crystal cloth",
+  "item.mam.large_catalyst": "Large catalyst",
+  "item.mam.small_catalyst": "Small_catalyst",
 
   "block.mam.crystal_block": "Crystal Block",
   "block.mam.crystal_ore": "Crystal Ore",

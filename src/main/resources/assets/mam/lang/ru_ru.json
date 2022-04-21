@@ -1,8 +1,16 @@
 {
   "item.mam.magic_crystal": "Магический кристалл",
   "item.mam.magical_condencer": "Магический конденсатор",
+  "item.mam.interlaced_crystal_cloth": "Переплетенная кристальная ткань",
+  "item.mam.mithril_ingot": "Мифриловый слиток",
+  "item.mam.raw_mithril": "Сырой мифрил",
+  "item.mam.crystal_cloth": "Кристаллическая ткань",
+  "item.mam.large_catalyst": "Большой катализатор",
+  "item.mam.small_catalyst": "Малый катализатор",
+
   "block.mam.crystal_block": "Кристаллический блок",
   "block.mam.crystal_ore": "Кристаллическая руда",
+
 
   "itemGroup.mechsandmagictab": "Mechs and Magic"
 }
