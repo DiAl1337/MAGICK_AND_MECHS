@@ -4,6 +4,7 @@
     "mam:crystal_block",
     "mam:crystal_ore",
     "mam:mithril_ore",
-    "mam:mithril_block"
+    "mam:mithril_block",
+    "mam:magick_lamp"
   ]
 }
